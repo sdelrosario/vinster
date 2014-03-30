@@ -23,14 +23,39 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 
-  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 
 .posts{
-	background: url(green_cup.png) repeat; 
+	
+	/*background: url(sushi.jpg) no-repeat center center fixed; 
+	 -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	
+    display: block;
+    position: relative;*/
+    background: url(green_cup.png) repeat;
 
 }
+
+/*.posts:after{
+
+	width: 1000px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    content: "";
+ 
+    background: url(radial-gradient.jpg);
+    opacity: .6;
+}
+*/
+
 
 
 .custom-h1{

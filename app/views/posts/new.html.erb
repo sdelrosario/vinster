@@ -1,0 +1,19 @@
+<div class = "genie-box col-xs-6 col-xs-offset-3 text-center">
+	
+	<h2>
+		Upload your recommendation!
+	</h2>
+
+	<br/>
+
+	<%= simple_form_for @post do |f| %>
+		<%= f.input :title , label: 'Name of restaurant:', placeholder: 'Restaurant Name' %>
+		<br/>
+		<br/>
+		<%= f.input :description, label: 'More information:', placeholder: 'Tell us more!' %>
+		<br/>
+		<%= f.button :submit, :class => 'btn btn-info' %>
+
+	<% end %>
+
+</div>
